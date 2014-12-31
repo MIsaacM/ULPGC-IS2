@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/ui/ExchangeDialog.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Model/Exchange.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Model/CurrencySet.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/ui/MoneyDisplay.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/persistence/ExchangeRateLoader.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/persistence/CurrencySetLoader.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/process/Exchanger.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Application/MoneyCalculator.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Model/ExchangeRate.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Control/ExchangeCommand.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Model/Currency.java</file>
-            <file>file:/C:/Users/usuario/Desktop/MoneyCalculator/src/Model/Money.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

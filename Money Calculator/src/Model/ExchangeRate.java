@@ -1,10 +1,24 @@
 package Model;
 
-public class ExchangeRate {
-    public final Currency from;
-    public final Currency to;
-    public final double rate;
+import java.util.Date;
 
+public class ExchangeRate {
+    
+    public final Date date;
+    public final Currency from, to;
+    public final Number rate;
+
+    public ExchangeRate(Date date, Currency from, Currency to, Number rate) {
+        this.date = date;
+        this.from = from;
+        this.to = to;
+        this.rate = rate;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+    
     public Currency getFrom() {
         return from;
     }
@@ -16,12 +30,4 @@ public class ExchangeRate {
     public Number getRate() {
         return rate;
     }
-
-    public ExchangeRate(Currency from, Currency to, double rate) {
-        this.from = from;
-        this.to = to;
-        this.rate = rate;
-    }
-   
-    
 }

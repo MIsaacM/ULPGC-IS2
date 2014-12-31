@@ -2,14 +2,33 @@ package Model;
 
 public class Currency {
 
-    public final char Simbol;
-    public final String Name;
-    public final String Code;
+    private String code, name, symbol;
 
-    public Currency(char Simbol, String Name, String Code) {
-        this.Simbol = Simbol;
-        this.Name = Name;
-        this.Code = Code;
-        
+    public Currency(String code, String name, String symbol) {
+        this.code = code;
+        this.name = name;
+        this.symbol = symbol;
     }
+    
+    public Currency(String code, String name) {
+        this(code, name, "");
+    }
+    
+    public Currency(String code) {
+        this(code, "", "");
+    }
+    
+    public String getCode() {
+        return code;
+    }
+    
+    public String getName() {    
+        return name;
+    }
+    
+    public String getSymbol() {
+        return symbol;
+    }
+    
+    
 }
